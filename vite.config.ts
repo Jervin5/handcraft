@@ -4,7 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: "/handcraft/",   // change if repo name different
+  base: "/",   // change if repo name different
 
   plugins: [react(), tailwindcss()],
   
